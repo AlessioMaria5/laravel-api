@@ -1,14 +1,17 @@
 <template>
   <div>
+      <HeaderComponent />
+      <HomeComponent />
       
-      <h1>Work in Progress</h1>
   </div>
 </template>
 
 <script>
+import HeaderComponent from '../components/partials/HeaderComponent.vue';
+import HomeComponent from '../components/HomeComponent.vue';
 export default {
     name: "App",
-    components: {  }
+    components: { HeaderComponent, HomeComponent }
 
 }
 </script>
